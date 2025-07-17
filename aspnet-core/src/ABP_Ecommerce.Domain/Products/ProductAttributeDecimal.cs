@@ -7,9 +7,9 @@ using Volo.Abp.Domain.Entities;
 
 namespace ABP_Ecommerce.Products
 {
-    public class ProductDecimal : Entity<Guid>
+    public class ProductAttributeDecimal : Entity<Guid>
     {
-        public ProductDecimal(Guid id, Guid attributeId, Guid productId, decimal value) 
+        public ProductAttributeDecimal(Guid id, Guid attributeId, Guid productId, decimal value) 
         {
             Id = id;
             AttributeId = attributeId;
